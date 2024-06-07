@@ -1,0 +1,70 @@
+# Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django files
+*.log
+*.pot
+*.pyc
+*.mo
+*.compiled
+*.migrations/
+*.env
+
+# SQLite database file
+db.sqlite3
+
+# Environments
+.env
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+*.log
+*.bak
+*.swp
+.docker/
+docker-compose.yml
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+.pylint.d/
+
+# Pyre
+.pyre/
